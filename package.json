@@ -1,0 +1,33 @@
+{
+  "name": "vegitable-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "json-server": "json-server --watch db.json --port 4000",
+  "test": "jest",
+  "test:watch": "jest --watch"
+},
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
+    "json-server": "^1.0.0-beta.3",
+    "next": "15.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "swr": "^2.3.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.2",
+    "tailwindcss": "^4"
+  }
+}
